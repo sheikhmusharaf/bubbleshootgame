@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+   
+ 
+    
+}
+
+#main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    background-color:rgb(202, 238, 202);
+   
+
+   
+
+}
+
+#panel{
+    width:70%;
+    height:90%;
+    background-color:#fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#ptop{
+    display:flex;
+    width:100%;
+    height:100px;
+    background-color:rgba(3, 46, 1, 0.885) ;
+    color:white;
+justify-content: space-between;
+    padding:0px 30%;
+    align-items: center;
+
+
+
+}
+.box{
+    color:rgba(80, 54, 54, 0.638);
+    font-weight: bold;
+   padding:10px 20px;
+   background-color: #fff;
+   border-radius: 5px;
+   font-size: 25px;
+
+}
+.elem{
+align-items: center;
+
+    display: flex;
+    gap:20px;
+}
+.elem h2{
+
+    font-weight: 500;
+    font-size: 18px;;
+}
+#pbtm{
+    padding:20px;
+     display: flex;
+    width:100%;
+    height:100%;
+    gap:12px;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+
+
+   
+
+
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height:55px;
+    width:55px;
+    border-radius:50%;
+    background: green;
+    color:white;
+    font-weight: bolder;
+    overflow: hidden;
+   
+   
+  
+
+    
+
+
+}
+.bubble:hover{
+    background-color:rgb(62, 3, 3);
+    cursor:pointer;
+}
+#music{
+    color:white;
+}
