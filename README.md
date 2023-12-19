@@ -1,4 +1,5 @@
 # bubbleshootgame
+## open this is in Desktop Site
 simple game made with javascript
  "# bubbleshootgame" >> README.md
 git init
